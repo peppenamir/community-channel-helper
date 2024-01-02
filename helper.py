@@ -22,7 +22,7 @@ class MovieApp(QWidget):
         self.search_button = QPushButton("Cerca")
         self.movie_list = QListWidget()
         self.add_button = QPushButton("Aggiungi alla lista")
-        self.link_label = QLabel("Link del film:")
+        self.link_label = QLabel("Url dello stream:")
         self.link_entry = QLineEdit()
         self.quality_label = QLabel("Qualità del film:")
         self.quality_entry = QLineEdit()
